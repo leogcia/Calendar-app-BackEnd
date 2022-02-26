@@ -28,7 +28,7 @@ const crearEvento = async  (req, res=express.response) => {
 
         res.json({
             ok: true,
-            msg: eventoGuardado
+            eventoGuardado
         });
 
     } catch (error) {
